@@ -81,7 +81,7 @@ export const query = graphql`
   }
 `;
 
-const ProjectTemplate = props => {
+const ProjectTemplate = (props) => {
   const { data, errors } = props;
   const project = data && data.sampleProject;
   return (
